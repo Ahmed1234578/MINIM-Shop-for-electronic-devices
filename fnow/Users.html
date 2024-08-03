@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Orders</title>
+    <link rel="stylesheet" href="OrdersCSS.css">
+    <script src="Orders.js"></script>
+</head>
+<body>
+    <div class="gen">
+        <div class="left">
+            <img src="pngwing.com (3).png" alt="Shop logo">
+            <h1 id="logo">MINIM</h1>
+            <p>Electronic Devices</p>
+        </div>
+
+        <div class="right">
+            <h1 id="re">Manage Orders</h1>
+            
+            <table id="ordersTable">
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>User</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                
+                    <tr>
+                        <td>12345</td>
+                        <td>Ahmed Khaled</td>
+                        <td>2024-08-01</td>
+                        <td>Pending</td>
+                        <td>
+                            <button type="button" onclick="ViewOrderFun()">View</button>
+                            <button type="button" onclick="UpdateStatusFun()">Update Status</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
