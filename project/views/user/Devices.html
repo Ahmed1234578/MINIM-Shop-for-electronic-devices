@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Devices</title>
+    <link rel="stylesheet" href="DevicesCSS.css">
+    <script src="Devices.js"></script>
+</head>
+<body>
+    <div class="gen">
+        <div class="left">
+            <img src="pngwing.com (3).png" alt="Shop logo">
+            <h1 id="logo">MINIM</h1>
+            <p>Electronic Devices</p>
+        </div>
+
+        <div class="right">
+            <h1 id="re">Manage Devices</h1>
+            <button type="button" onclick="AddDeviceFun()" class="AB">Add Device</button>
+            
+            <table id="devicesTable">
+                <thead>
+                    <tr>
+                        <th>Device Name</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Example rows, will be populated dynamically -->
+                    <tr>
+                        <td>Lenovo IdeaPad</td>
+                        <td>Laptop</td>
+                        <td>$500</td>
+                        <td>
+                            <button type="button" onclick="EditDeviceFun()">Edit</button>
+                            <button type="button" onclick="DeleteDeviceFun()">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
