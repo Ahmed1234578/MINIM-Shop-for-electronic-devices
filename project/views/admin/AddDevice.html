@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add a Device</title>
+        <link rel="stylesheet" href="AddDeviceCSS.css">
+        <script src="AddDeviceJS.js"></script>
+    </head>
+    <body>
+        <form method="post">
+        <div class="gen">
+<div class="left">
+<img src="pngwing.com (3).png" alt="Shop logo">
+<h1 id="logo">MINIM</h1>
+<p>Electronic Devices</p>
+</div>
+
+    <div class="right">
+        <h1 id="re">Add a Device</h1>
+        <div class="gen2">
+        <div class="p1">
+        <h2 id="NH">Name</h2>
+        <input type="text" name="Name" id= "NI" placeholder="Lenovo IdeaPad" required>
+        <p id="NV"></p>
+        <h2 id="PH">Price (in EGP)</h2>
+        <input type="text" name="Price" id= "PI" placeholder="15000" required>
+        <p id="PV"></p>
+        <h2 id="HDDH">HDD (in TB)</h2>
+        <input type="text" name="HDD" id= "HDDI" placeholder="1" required>
+        <p id="HV"></p>
+        </div>
+        <div class="p2">
+        <h2 id="RAMH">RAM (in GB)</h2>
+        <input type="text" name="RAM" id= "RAMI" placeholder="8" required>
+        <p id="RV"></p>
+        <h2 id="SPH">Screen space (in Inch)</h2>
+        <input type="text" name="ScreenSpace" id= "SPI" placeholder="15.6" required>
+        <p id="SPV"></p>
+        <h2 id="PhH">Photo</h2>
+        <input type="file" name="Photo" id= "PhI" placeholder="Al-Ahly Street, Cairo" required>
+        <p id="PHV"></p>
+        </div>
+        </div>
+        <div class="BD">
+        <button type="button" onclick="AddFun()" class="AB" name="AddB" >Add</button>
+        <button type="button" onclick="CanFun()" class="CB" name="CancelB" >Cancel</button>
+        </div>
+        </div>
+    </div>
+        </div>
+        </form>
+    </body>
+</html>
