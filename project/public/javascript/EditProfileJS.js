@@ -169,13 +169,13 @@ function EditPFun() {
   }
       if(emails==true&&passwords==true&&phonenumbers==true&&addresss==true){
         
-          location.replace("AdminPage.html");
+          location.replace("../../views/admin/Profile.html");
         
-       
+        
       }
   }
 
   function CanFun() {
    
-    location.replace("AdminPage.html");
+    location.replace("../../views/admin/Profile.html");
   }

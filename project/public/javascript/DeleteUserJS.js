@@ -38,9 +38,9 @@ if((fnamefound==false&&lnamefound==false)||((fnamefound==true&&lnamefound==false
   alert ("User "+fname+" "+lname+ " is not found.");
 }
 if(fnames==true&&lnames==true){
-  location.replace("AdminPage.html")
+  location.replace("../../views/admin/AdminPage.html")
 }
   }
   function CanFun() {
-    location.replace("AdminPage.html")
+    location.replace("../../views/admin/AdminPage.html")
   }

@@ -140,9 +140,9 @@ function AddFun() {
        photos=true;
     }
     if(names==true&&prices==true&&hdds==true&&rams==true&&screen_space_s==true&&photos==true){
-      location.replace("AdminPage.html")
+      location.replace("../../views/admin/AdminPage.html")
     }
   }
   function CanFun() {
-    location.replace("AdminPage.html")
+    location.replace("../../views/admin/AdminPage.html")
   }

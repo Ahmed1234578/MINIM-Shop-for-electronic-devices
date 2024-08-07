@@ -1,6 +1,6 @@
 function BackFun() {
-    location.replace("AdminPage.html")
+    location.replace("../../views/admin/AdminPage.html")
   }
   function EditFun() {
-    location.replace("EditProfile.html")
+    location.replace("../../views/admin/EditProfile.html")
   }

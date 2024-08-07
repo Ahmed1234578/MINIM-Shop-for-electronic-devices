@@ -108,9 +108,9 @@ function loginFun(){
             document.getElementById("PI").style.borderColor="red";
         }
        if(fistchar.match(capital)&&Login_Password.match(small)&&Login_Password.match(number)&&Login_Password.match(sepChar)&&emailType=="admin"){
-          location.replace("AdminPage.html");
+          location.replace("../../views/admin/AdminPage.html");
        }else if(fistchar.match(capital)&&Login_Password.match(small)&&Login_Password.match(number)&&Login_Password.match(sepChar)&&emailType=="user"){
-        location.replace("UserPage.html");
+        location.replace("../../views/user/UserPage.html");
        }
 
     }

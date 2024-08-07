@@ -206,6 +206,6 @@ function RegisterFun(){
         }
     }
         if(fnames==true&&lnames==true&&emails==true&&passwords==true&&phonenumbers==true&&addresss==true){
-            location.replace("UserPage.html");
+            location.replace("../../views/user/UserPage.html");
         }
     }

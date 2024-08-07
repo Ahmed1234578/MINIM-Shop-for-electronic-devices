@@ -169,7 +169,7 @@ function EditPFun() {
     }
         if(emails==true&&passwords==true&&phonenumbers==true&&addresss==true){
           
-            location.replace("UserPage.html");
+            location.replace("../../views/user/UserPage.html");
           
          
         }
@@ -177,5 +177,5 @@ function EditPFun() {
   
     function CanFun() {
      
-      location.replace("UserPage.html");
+      location.replace("../../views/user/UserPage.html");
     }

@@ -85,13 +85,13 @@ function AddFun(){
     }
     }
     if(Email==""){
-        // window.location.replace("AdminPage.html");
+      
         document.getElementById("EV").innerHTML="The email must not be empty."
         document.getElementById("EmI").style.backgroundColor="#ffe6e6";
         document.getElementById("EmI").style.borderColor="red";
        }
        else{
-           // window.location.replace("AdminPage.html");
+           
            document.getElementById("EV").innerHTML="";
            document.getElementById("EmI").style.backgroundColor="white";
            document.getElementById("EmI").style.borderColor="black";
@@ -206,9 +206,9 @@ function AddFun(){
         }
     }
         if(fnames==true&&lnames==true&&emails==true&&passwords==true&&phonenumbers==true&&addresss==true){
-            location.replace("AdminPage.html");
+            location.replace("../../views/admin/AdminPage.html");
         }
     }
 function CanFun(){
-    location.replace("AdminPage.html");
+    location.replace("../../views/admin/AdminPage.html");
 }

@@ -1,6 +1,6 @@
 function EditFun() {
-    location.replace("AdminPage.html")
+    location.replace("../../views/admin/AdminPage.html")
   }
   function CanFun() {
-    location.replace("AdminPage.html")
+    location.replace("../../views/admin/AdminPage.html")
   }
