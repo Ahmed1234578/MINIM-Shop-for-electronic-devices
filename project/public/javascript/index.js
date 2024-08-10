@@ -129,6 +129,24 @@ app.post('/AddDevice.ejs', (req, res)=>{
 
   
 });
+app.listen(port, () => {
+  console.log('Server is running on port '+ port)});
+  
+  app.post('/DeleteDevice.ejs',(req,res)=>{
+    const deviceName = req.body.Name;
+    const Device= require('Data/data');
+    
+    Device.findByNameAndDelete(deviceId, (err, device) => {
+      if (err) {
+        console.error(err);
+        res.render('DeleteDevice', { message: 'Error deleting device.' });
+      } else if (!device) {
+        res.render('DeleteDevice', { message: 'Device not found.' });
+      } else {
+        res.render('DeleteDevice', { message: 'Device deleted successfully.' });
+      }
+    });
+  })
 
 app.listen(port, () => {
   console.log('Server is running on port '+ port)});
